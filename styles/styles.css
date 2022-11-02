@@ -258,9 +258,6 @@ nav {
 }
 
 /*Developments*/
-.section-developments .container {
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
 
 .developments {
   display: flex;
@@ -276,7 +273,6 @@ nav {
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   color: var(--main-color);
 }
 
@@ -328,6 +324,7 @@ nav {
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.03em;
+  margin-bottom: 10px;
 }
 
 .subtitle {
@@ -348,6 +345,7 @@ nav {
 
 footer .container {
   flex-direction: column;
+  display: block;
 }
 
 .logo-white {
@@ -355,7 +353,8 @@ footer .container {
 }
 
 .foot-logo {
-  margin-bottom: 11px;
+  display: block;
+  margin-bottom: 20px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -365,7 +364,6 @@ footer .container {
 }
 
 .address {
-  margin-top: 20px;
   font-style: normal;
   font-size: 14px;
   line-height: calc(24 / 14);
@@ -375,7 +373,7 @@ footer .container {
 }
 
 .address-item {
-  margin-top: 9px;
+  margin-bottom: 9px;
 }
 
 .contact {
